@@ -1,0 +1,108 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* 
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg,#852999, #430252 ); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    z-index: 1;
+} */
+
+
+nav{
+    width: 100%; height: 100px;
+    background: linear-gradient(57deg , #34d8eb); 
+
+    display: flex; color: white;
+    z-index: 1;
+}
+
+.logo{
+    width:50%;
+    height: 100px;
+    z-index: 1;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+.menu{
+    width: 50%; height: 100px;
+    z-index: 1;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    z-index: 1;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+section{ display: flex;  }
+
+.leftside { width: 60%; height: auto; overflow: hidden; margin-top: 20px;z-index: 1;}
+
+.leftside img{  
+    width: 90%;  
+    height: 90%; 
+    z-index: 1;}
+
+.rightside{ width:40%; height: 300px; color: #000000; text-align: center; margin-top: 80px; padding: 40px;z-index: 1;}
+
+.rightside h1{ text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase; z-index: 1;} 
+
+.rightside p {  
+    font-size: 1.1rem; padding: 30px 0; z-index: 1;}
+
+.rightside button{   font-size: 17px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    background: linear-gradient(57deg,#EF9A53 , #852999); 
+    border-radius: 20px;
+    padding: 20px 35px ; 
+    z-index: 1;
+}
+
+
+
+.rightside button:hover{
+      background: linear-gradient(57deg,#8cc2ed,#46a5f2, );
+      z-index: 1;   
+}
+
+#my-div {
+    content: "";
+    position: absolute;
+    height: 1600px;
+    width: 1600px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(-45deg,#852999 0%, #852999 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+  z-index: -1;
+  }
+  
